@@ -4,14 +4,14 @@
   (tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
   (attr through_hole)
   (fp_text reference "REF**" (at 2.54 -3.56) (layer "F.SilkS")
-      (effects (font (size 1 1) (thickness 0.15)))
+      (effects (font (size 1.2 1.2) (thickness 0.25) bold))
     (tstamp cfb0dc15-59fa-4eeb-b916-3eed622e9ca3)
   )
-  (fp_text value "TO-92_Inline_Wide" (at 2.54 2.79) (layer "F.Fab")
+  (fp_text value "TO-92_Inline_Wide" (at 2.54 2.79) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 3981b786-22fe-4fd9-a92d-cf3443336eb2)
   )
-  (fp_text user "${REFERENCE}" (at 2.54 0) (layer "F.Fab")
+  (fp_text user "${REFERENCE}" (at 2.54 0) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp fcbb24d5-9b86-4ea0-b61f-66a5b084d49b)
   )

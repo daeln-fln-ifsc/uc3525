@@ -4,10 +4,10 @@
   (tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm")
   (attr through_hole)
   (fp_text reference "REF**" (at 5.08 -2.47) (layer "F.SilkS")
-      (effects (font (size 1 1) (thickness 0.15)))
+      (effects (font (size 1.2 1.2) (thickness 0.25) bold))
     (tstamp 1719c878-cac5-4bb3-9805-be65603603ec)
   )
-  (fp_text value "D_DO-41_SOD81_P10.16mm_Horizontal" (at 5.08 2.47) (layer "F.Fab")
+  (fp_text value "D_DO-41_SOD81_P10.16mm_Horizontal" (at 5.08 2.47) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 7a47a626-2563-410c-8e62-23c1a7e91f35)
   )
@@ -15,7 +15,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp d89d7518-5a36-4d14-81db-14315403fc14)
   )
-  (fp_text user "${REFERENCE}" (at 5.47 0) (layer "F.Fab")
+  (fp_text user "${REFERENCE}" (at 5.47 0) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 8a7b4edb-7665-470c-9bdb-d729587a9cdd)
   )

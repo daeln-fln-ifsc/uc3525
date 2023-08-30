@@ -4,14 +4,14 @@
   (tags "TO-18-3")
   (attr through_hole)
   (fp_text reference "REF**" (at 1.27 -4.02) (layer "F.SilkS")
-      (effects (font (size 1 1) (thickness 0.15)))
+      (effects (font (size 1.2 1.2) (thickness 0.25) bold))
     (tstamp d1882b7c-2a17-4df5-a895-934dc9a6a511)
   )
-  (fp_text value "TO-18-3" (at 1.27 4.02) (layer "F.Fab")
+  (fp_text value "TO-18-3" (at 1.27 4.02) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 0124ec30-3193-408e-b070-a88c6292bb7a)
   )
-  (fp_text user "${REFERENCE}" (at 1.27 -4.02) (layer "F.Fab")
+  (fp_text user "${REFERENCE}" (at 1.27 -4.02) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 50512a4c-3bc3-4bc0-b33f-7807231e16f2)
   )

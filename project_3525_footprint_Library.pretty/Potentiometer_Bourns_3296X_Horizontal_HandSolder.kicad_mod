@@ -4,14 +4,14 @@
   (tags "Potentiometer horizontal Bourns 3296X")
   (attr through_hole)
   (fp_text reference "REF**" (at -3.3 -3.66) (layer "F.SilkS")
-      (effects (font (size 1 1) (thickness 0.15)))
+      (effects (font (size 1.2 1.2) (thickness 0.25) bold))
     (tstamp 60ba47d6-70dd-4b0c-a355-e06c02af83ca)
   )
-  (fp_text value "Potentiometer_Bourns_3296X_Horizontal" (at -3.3 3.67) (layer "F.Fab")
+  (fp_text value "Potentiometer_Bourns_3296X_Horizontal" (at -3.3 3.67) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp b462e1a9-9d16-4db0-b079-5dafbcf23451)
   )
-  (fp_text user "${REFERENCE}" (at -2.54 0.005) (layer "F.Fab")
+  (fp_text user "${REFERENCE}" (at -2.54 0.005) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 0c970a75-f1a3-415f-9330-e5cb2d29ad4b)
   )

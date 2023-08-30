@@ -4,14 +4,14 @@
   (tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
   (attr through_hole)
   (fp_text reference "REF**" (at 5.08 -2.12) (layer "F.SilkS")
-      (effects (font (size 1 1) (thickness 0.15)))
+      (effects (font (size 1.2 1.2) (thickness 0.25) bold))
     (tstamp faf90b1c-08ec-47dd-9481-1465d6be5c0f)
   )
-  (fp_text value "D_DO-35_SOD27_P10.16mm_Horizontal" (at 5.08 2.12) (layer "F.Fab")
+  (fp_text value "D_DO-35_SOD27_P10.16mm_Horizontal" (at 5.08 2.12) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 6a30a355-9247-4684-b158-6aa8bc01903f)
   )
-  (fp_text user "K" (at 0 -1.8) (layer "F.SilkS")
+  (fp_text user "K" (at 0 -1.8) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 90d2bc7a-6f17-4a8b-9837-c87a419cd685)
   )
@@ -19,7 +19,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 47852a4e-cdf8-4c6f-9840-e89c0488449b)
   )
-  (fp_text user "${REFERENCE}" (at 5.38 0) (layer "F.Fab")
+  (fp_text user "${REFERENCE}" (at 5.38 0) (layer "F.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.12)))
     (tstamp 695438ed-75b9-4b57-bd3a-7a6dc27a83e1)
   )
